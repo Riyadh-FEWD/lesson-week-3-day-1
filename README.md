@@ -45,3 +45,9 @@ Let's watch a short video to recap [how the web works](https://www.youtube.com/w
 ![linkingFiles](images/linkingFiles.png)
 
 ![linkingNestedFiles](images/linkingNestedFiles.png)
+
+# HTML/CSS Practice
+
+A hot, new NY Tech Startup, Relaxr, has approached you to help them develop a new landing page for their company. They've handed you the for the site, along with the copy and assets. You need to take these files and turn it into a landing page.
+
+[Click here for more details about our Relaxr client's website!](starter_code/README.md)
