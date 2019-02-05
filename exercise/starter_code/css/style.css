@@ -26,19 +26,101 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-
-header {
-
+.header {
+  text-align: center;
+}
+.h1_header {
+  color: white;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 10px;
+  font-weight: bolder;
+  font-size: 50px;
+}
+.h2_header{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin: 20px auto;
+}
+.header_button{
+  background: rgba(250, 250, 0,1);
+  font-size: 28px;
+  font-weight: bolder;
+  color: #033048;
+  align-content: center;
+  border-radius: 5px;
+  margin-bottom: 100px;
+  border: none;
+  padding: 10px 50px;;
 }
 
-footer {
-
+.main{
+  background: lightgray;
+  padding-left: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.h1_main{
+  color: #033048;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.p_main{
+  color: gray;
+  font-size: 40px;
+}
+.ul_main{
+  list-style: disc;
+  margin-left: 80px;
+  font-size: 40px;
+  color: gray;
 }
 
+.qute{
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  padding-top: 50px;
+  padding-left: 50px;
+  background-image: url(../images/testimonial_bg.jpg);
+}
+.h1_qute{
+  color: #606161;
+}
+.sign_up{
+  text-align: center;
+  padding: 5px 0;
+  background: rgba(250, 250, 0,1);
+}
+.sign_up_button{
+  background: #033048;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 10px 50px;
+  margin: 20px 0;
+  color: rgba(225, 225, 225,1);
+  align-content: center;
+  border-radius: 5px;
+  border: none;
+}
+.footer {
+  text-align: center;
+  background: #121212
+}
+.h1_footer{
+  font-size: 50px;
+  color: yellow;
+  padding: 50px 0;
+}
+.img_footer{
+  padding: 0 25px;
+}
+.p_footer{
+  color: white;
+  padding: 50px 0;
+  font-size: 15px
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
-
