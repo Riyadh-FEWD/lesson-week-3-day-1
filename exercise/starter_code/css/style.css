@@ -1,44 +1,126 @@
-/******************************************
-/* SETUP
-/*******************************************/
-
-/* Box Model */
-* {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
-}
-
-/******************************************
-/* BASE STYLES
-/*******************************************/
-
 body {
     color: #000;
     font-size: 12px;
     line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
-    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-    background-size: cover;
-}
-
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-
-header {
 
 }
 
-footer {
-
+.header{
+  text-align: center;
+  font-family: 'Arimo', sans-serif;
+  background: url(../images/header_bg.jpg) no-repeat center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  padding: 25px;
+}
+.header h1{
+font-size: 35px;
+color: #f0efef;
+margin-left: 100px;
+text-align: left;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+.header h2{
+  font-size: 40px;
+  text-align: center;
+  color: #f0efef;
+  margin: 100px;
+}
 
+.header button{
+  background-color: #f9e42e;
+  color: #033048;
+  font-size: 28px;
+  width: 280px;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 12px;
+}
 
+/* Main */
 
+.first h1{
+  font-size: 40px;
+  padding-left: 100px;
+  padding-top: 50px;
+  color: #033048;
+}
+.first p{
+  font-size: 20px;
+  padding-left: 100px;
+  color: #606161;
+}
+.first ul{
+  color: #606161;
+  font-size: 20px;
+  padding-left: 150px;
+  padding-bottom: 70px;
+}
 
+.second {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  display: block;
+  background-size: cover;
+}
+.second p{
+  font-size: 40px;
+  color: #fff;
+  padding-top: 70px;
+  text-align: center;
+  font-weight: lighter;
+}
+.second h3{
+  color: #fff;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.third{
+  background: #f9e42e;
+  padding: 30px;
+  text-align: center;
+}
+.third button{
+  background-color: #033048;
+  color: #ffffff;
+  font-size: 28px;
+  width: 280px;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 12px;
+}
+.footer h1{
+  color: #f9e42e;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+  padding-bottom: 100px;
+}
+
+.footer{
+  background: url(../images/twitter.png) no-repeat center;
+  color: #fff;
+  list-style: none;
+  vertical-align: baseline;
+  padding-top: 100px;
+  background-color: black;
+  padding: 100px;
+  text-align: center;
+}
+.footer p{
+  background-color: black;
+  position: relative;
+  color: #fff;
+  font-size: 25px;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
